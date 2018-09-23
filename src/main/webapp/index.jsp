@@ -8,5 +8,7 @@
 
 <p> Random text change</p>
 
+<p>New text to verify deployment</p>
+
 </body>
 </html>
