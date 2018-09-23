@@ -8,7 +8,7 @@
 
 <p> Random text change</p>
 
-<p>The code is deployed on Production. One check before the the deployment</p>
+<p>One check before the the deployment</p>
 
 </body>
 </html>
