@@ -5,7 +5,7 @@
 <h3>WelCome to Jenkins!</h3>
 
 
-<p>One check before the the deployment</p>
+<p>checking for changes after deployment on staging env</p>
 
 </body>
 </html>
