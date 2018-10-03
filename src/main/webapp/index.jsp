@@ -5,7 +5,7 @@
 <h3>WelCome to Jenkins!</h3>
 
 <p>Trying changes to index.jsp file</p>
-<p>SSH Key created</p>
+<p>SSH Key</p>
 
 </body>
 </html>
