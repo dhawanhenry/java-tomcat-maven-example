@@ -6,6 +6,8 @@
 
 <p>Trying changes to index.jsp file</p>
 <p>SSH Key</p>
+<p>Observe changes after new deployment</p>
+
 
 </body>
 </html>
