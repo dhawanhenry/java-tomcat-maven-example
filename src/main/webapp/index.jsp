@@ -4,9 +4,6 @@
 
 <h3>WelCome to Jenkins!</h3>
 
-
-<p>Pipeline changes on staging and prod</p>
-<p>Pipeline changes on staging and prod-SECOND CHECK</p>
-
+<p>Trying changes to index.jsp file</p>
 </body>
 </html>
