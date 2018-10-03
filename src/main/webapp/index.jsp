@@ -5,8 +5,7 @@
 <h3>WelCome to Jenkins!</h3>
 
 <p>Trying changes to index.jsp file</p>
-<p>SSH Key</p>
-<p>Observe changes after new deployment</p>
+<p>Successful deployment to Production</p>
 
 
 </body>
