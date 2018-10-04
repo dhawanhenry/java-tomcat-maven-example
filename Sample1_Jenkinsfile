@@ -1,25 +1,25 @@
-pipeline{
+pipeline {
 
-    /* A decalarative pipeline*/
+    /*A declarative pipeline*/
     agent any
 
     stages{
 
+        agent ABC
         stage('Build'){
 
             steps{
-
 
             }
         }
 
         stage('Deploy to Staging'){
+
+            agent XYZ
             /*Agent selection could go here as well*/
             steps{
 
-
             }
-
         }
     }
 }
