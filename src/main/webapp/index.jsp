@@ -4,8 +4,7 @@
 
 <h3>WelCome to Jenkins!</h3>
 
-<p>Trying changes to index.jsp file</p>
-<p>Successful deployment to Production</p>
+<p>Tchanges made to index.jsp file</p>
 
 
 </body>
