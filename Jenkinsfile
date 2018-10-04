@@ -1,19 +1,22 @@
 pipeline {
     agent any
     stages {
-        stage ('Initializing the Code File') {
+        stage ('Initialize') {
             steps {
-                sh '''
-                echo "PATH = ${PATH}"
-                echo "M2_HOME = ${M2_HOME}"
-                '''
+                echo "Initializing the Code File"
             }
 
         }
 
         stage ('Build'){
             steps{
-                echo 'Hello World everyone.'
+                echo 'Hello World'
+            }
+        }
+
+        stage ('Deploy'){
+            steps {
+                echo 'Deployed an Artifact'
             }
         }
     }
