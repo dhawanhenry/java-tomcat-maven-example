@@ -3,22 +3,21 @@ pipeline {
     stages {
         stage ('Build Servlet Project') {
             steps {
-                /*For windows machine*/
-                bat 'mvn clean package'
+                bat 'mnv clean package'
             }
 
-            post{
-                success{
+            post {
+                success {
                     echo 'Now Archiving ....'
 
-                    archiveArtifacts artifacts : "**/*.war"
+                    archiveArtifacts artifacts : '**/*.war'
                 }
             }
         }
 
-        stage ('Deploy Build in Staging Area'){
+        stage ('Develop Build Staging Area'){
             steps{
-                build job : 'Deploy-StagingArea-Pipeline'
+                build job : 'Develop-StagingArea-Pipeline'
             }
         }
     }
