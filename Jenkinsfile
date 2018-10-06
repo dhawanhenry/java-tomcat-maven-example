@@ -15,9 +15,27 @@ pipeline {
             }
         }
 
-        stage ('Develop Build Staging Area'){
+        stage ('Deploy Build in Staging Area'){
             steps{
-                build job : 'Develop-StagingArea-Pipeline'
+                build job : 'Deploy-StagingArea-Pipeline'
+            }
+        }
+
+        stage ('Deploy To Prod'){
+            steps{
+                timeout (time: 5, unit 'DAYS'){
+            }
+                build job : 'Deploy-Production-Pipeline'
+            }
+
+            post{
+                success{
+                    echo 'Deployment on Production is Successful'
+                }
+
+                failure{
+                    echo 'Deployment Failure on Production'
+                }
             }
         }
     }
